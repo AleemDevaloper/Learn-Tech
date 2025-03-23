@@ -1,0 +1,72 @@
+
+.contact-us{
+    color: $sub2-main-color;
+    margin: 80px 0px;
+    .row{
+        .contact-txt{
+           h1{
+            color: $sub-main-color;
+           }
+           ul{
+            padding: 0px 20px;
+            li{
+                color: $sub-main-color;
+                list-style:disc;
+            }
+           }
+        }
+        .contact-form{
+           
+             .d-flex{   
+                @media (max-width: 400px) {
+                    &{
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        textarea{
+                            max-width: 100%;
+                            padding: 10px 10px;
+                        }
+                    }
+                    
+            }
+            input{
+                color: $sub2-main-color;
+                  width: 100%;
+                  padding: 10px 40px;
+                  background-color: transparent;
+                  border: 1px solid $sub2-main-color;
+                  border-radius: 30px;
+                   margin: 10px 0px 10px 10px;
+            }
+            input:hover{
+                   border: 1px solid $main-color;
+            }
+               }
+             textarea{
+                color: $sub2-main-color;
+                 padding: 10px 30px;
+                 background-color: transparent;
+                 border: 1px solid $sub2-main-color;
+                 border-radius: 20px;
+             }
+             textarea:hover{
+                border: 1px solid $main-color;
+             }
+             button{
+                 color: $sub3-main-color;
+                 background-color: $main-color;
+                 border-radius: 30px;
+                padding: 10px 30px;
+                transition: all .5s;
+             }
+             button:hover{
+                background: transparent;
+                border: 1px solid $main-color;
+                color: $main-color;
+             }
+        }
+       
+    }
+    
+}

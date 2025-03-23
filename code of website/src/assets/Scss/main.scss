@@ -1,0 +1,15 @@
+//    abstracts 
+@import "./abstracts/function";
+@import "./abstracts/variable";
+@import "./abstracts/scroll-bar";
+@import "./abstracts/reset";
+
+// compponents 
+@import "./components/header";
+@import "./components/footer";
+@import "./components/index";
+@import "./components/cources";
+@import "./components/contact";
+
+@import "./eror.scss";
+@import "./web.scss";

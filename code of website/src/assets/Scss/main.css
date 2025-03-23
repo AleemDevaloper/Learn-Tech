@@ -1,0 +1,676 @@
+.main-color {
+  color: lightgreen;
+}
+
+.main-text {
+  color: transparent !important;
+  background: linear-gradient(180deg, lightgreen, white);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.sub-main-color {
+  color: white;
+}
+
+.sub2-main-color {
+  color: rgb(150, 150, 150);
+}
+
+.h1-main {
+  color: lightgreen;
+}
+
+.h1-sub {
+  color: white;
+}
+
+.h1-sub2 {
+  color: rgb(150, 150, 150);
+}
+
+.bg-black {
+  background: black;
+}
+
+.bg-grey {
+  background: rgb(49, 49, 49);
+}
+
+.btn-2 {
+  background-color: transparent;
+  border-color: lightgreen;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid lightgreen;
+  border-radius: 10px;
+}
+
+.btn-2:hover {
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  background-color: lightgreen;
+  color: rgb(49, 49, 49);
+}
+
+@media (max-width: 325px) {
+  .btn-2 {
+    padding: 5px 8px;
+  }
+}
+.li-1 {
+  font-size: 26px;
+}
+
+.main-color {
+  color: lightgreen;
+}
+
+.main-text {
+  color: transparent !important;
+  background: linear-gradient(180deg, lightgreen, white);
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+
+.sub-main-color {
+  color: white;
+}
+
+.sub2-main-color {
+  color: rgb(150, 150, 150);
+}
+
+.h1-main {
+  color: lightgreen;
+}
+
+.h1-sub {
+  color: white;
+}
+
+.h1-sub2 {
+  color: rgb(150, 150, 150);
+}
+
+.bg-black {
+  background: black;
+}
+
+.bg-grey {
+  background: rgb(49, 49, 49);
+}
+
+.btn-2 {
+  background-color: transparent;
+  border-color: lightgreen;
+  color: white;
+  padding: 10px 20px;
+  border: 1px solid lightgreen;
+  border-radius: 10px;
+}
+
+.btn-2:hover {
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  background-color: lightgreen;
+  color: rgb(49, 49, 49);
+}
+
+@media (max-width: 325px) {
+  .btn-2 {
+    padding: 5px 8px;
+  }
+}
+.li-1 {
+  font-size: 26px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(150, 150, 150);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: lightgreen;
+  border-radius: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul,
+ol,
+li {
+  cursor: none !important;
+  list-style: none;
+}
+
+input,
+button {
+  cursor: none !important;
+  border: 0px;
+}
+input:focus,
+button:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+textarea {
+  cursor: none !important;
+}
+
+a {
+  cursor: none !important;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+button {
+  cursor: none !important;
+  display: inline-block;
+  background-color: transparent;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  background: url(/src/assets/images/bg3.jpeg) no-repeat;
+  background-size: cover;
+  font-family: "Poppins", "Roboto", Arial, "NunitoSans", Helvetica, sans-serif;
+  height: 100%;
+  cursor: none;
+  scroll-behavior: smooth;
+}
+
+.arrow {
+  border: 2px solid lightgreen;
+  border-radius: 50%;
+  position: fixed;
+  width: 35px;
+  height: 35px;
+  transform: matrix(1, 0, 0, 1, 697, 106), translate(-50%, -50%);
+  z-index: 2;
+  left: 0;
+  top: 0;
+  transition: transform 0.1s, width 0.3s, height 0.3s;
+  pointer-events: none;
+}
+
+.dot {
+  position: fixed;
+  height: 5px;
+  width: 5px;
+  top: 0;
+  left: 0;
+  background: lightgreen;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 2;
+  transform: matrix(1, 0, 0, 1, 697, 106), translate(-50%, -50%);
+  transition: transform 0.07s, width 0.3s, height 0.3s;
+}
+
+header {
+  background-color: rgb(49, 49, 49);
+}
+header .navbar-brand {
+  color: white;
+}
+@media (max-width: 420px) {
+  header .navbar-brand {
+    padding: 0px;
+    margin: 0px;
+    font-size: 8px;
+  }
+  header .navbar-brand img {
+    max-width: 20%;
+  }
+}
+header .btn-close {
+  border: 1px solid rgb(150, 150, 150);
+}
+header .btn-close:hover {
+  border: 1px solid cyan;
+}
+header .sidebar {
+  background-color: rgba(49, 49, 49, 0.737);
+  border-right: 2px solid cyan !important;
+  border-top: 0px solid cyan !important;
+  border-bottom: 0px solid cyan !important;
+}
+header .sticky {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  background-color: rgb(49, 49, 49) !important;
+}
+header .navbar-toggler {
+  color: lightgreen;
+  border: 2px solid lightgreen;
+}
+@media (max-width: 360px) {
+  header .navbar-toggler {
+    position: absolute;
+    top: 15px;
+    right: 10px;
+  }
+}
+header .navbar-toggler #navicon {
+  position: relative;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  border-radius: 5px;
+}
+header .navbar-toggler #navicon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: lightgreen;
+  border-radius: 9px;
+  opacity: 1;
+  margin: 0 auto;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+  right: 0;
+}
+header .navbar-toggler #navicon span:first-child {
+  top: 5px;
+}
+header .navbar-toggler #navicon span:nth-child(2) {
+  top: 11px;
+}
+header .navbar-toggler #navicon span:last-child {
+  top: 18px;
+}
+header .navbar-toggler #navicon:hover span {
+  transform: rotate(55deg);
+  height: 3px;
+}
+header .navbar-toggler #navicon:hover span:nth-child(2) {
+  transform: rotate(-55deg);
+  top: 10px;
+}
+header .navbar-toggler #navicon:hover span:first-child {
+  top: 10px;
+}
+header .navbar-toggler #navicon:hover span:last-child {
+  display: none;
+}
+@media (max-width: 356px) {
+  header .navbar-toggler .navbar-toggler {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}
+header .active {
+  color: lightgreen !important;
+}
+header .nav-link {
+  font-size: 18px;
+  font-weight: lighter;
+  color: white;
+}
+header .nav-link:hover {
+  color: lightgreen;
+}
+@media (max-width: 991px) {
+  header .s-d {
+    display: none;
+  }
+}
+header .s-d .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .s-d .content .text p {
+  font-family: "Poppins", "Roboto", Arial, "NunitoSans", Helvetica, sans-serif;
+}
+header .s-d .content .icon {
+  background-color: lightgreen;
+  border-radius: 100%;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+}
+header .s-d .content .icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 60%;
+  background: black;
+  border-radius: 9px;
+  opacity: 1;
+  margin: 7px auto;
+  transform: rotate(0deg);
+  transition: 0.25s ease-in-out;
+}
+header .s-d .content .icon span:first-child {
+  top: 5px;
+  width: 15px;
+}
+header .s-d .content .icon span:nth-child(2) {
+  top: 11px;
+  width: 20px;
+}
+header .s-d .content .icon span:last-child {
+  top: 18px;
+  width: 15px;
+}
+header .s-d .content .icon:hover {
+  cursor: none;
+}
+header .s-d .content .icon:hover span:first-child {
+  top: 5px;
+  width: 22px;
+}
+header .s-d .content .icon:hover span:nth-child(2) {
+  top: 11px;
+  width: 22px;
+}
+header .s-d .content .icon:hover span:last-child {
+  top: 18px;
+  width: 22px;
+}
+header .s-d .content .text {
+  text-transform: capitalize;
+  font-family: "Poppins", "Roboto", Arial, "NunitoSans", Helvetica, sans-serif;
+  color: lightgreen;
+}
+
+#footer .footer-up {
+  background-color: black;
+  margin: 50px 0px 0px 0px;
+  padding: 50px 0px;
+  color: rgb(150, 150, 150);
+}
+@media (max-width: 992px) {
+  #footer .footer-up .row {
+    flex-direction: column;
+  }
+}
+#footer .footer-up .loc h3 {
+  color: white;
+}
+#footer .footer-up .loc ul li {
+  margin: 20px 0px;
+  color: white;
+  transition: all 0.5s;
+}
+#footer .footer-up .loc ul li i {
+  margin: 2px 20px;
+  color: lightgreen;
+  font-size: 25px;
+}
+#footer .footer-up .loc ul li:hover {
+  color: lightgreen;
+}
+#footer .footer-up .fol h3 {
+  color: white;
+}
+#footer .footer-up .fol ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 992px) {
+  #footer .footer-up .fol ul {
+    justify-content: center;
+  }
+}
+#footer .footer-up .fol ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 10px 15px;
+  margin: 5px 5px;
+  transition: all 0.5s;
+}
+#footer .footer-up .fol ul li i {
+  font-size: 25px;
+  color: lightgreen;
+}
+#footer .footer-up .fol ul li:hover {
+  cursor: none;
+  background-color: lightgreen;
+}
+#footer .footer-up .fol ul li:hover i {
+  color: white;
+}
+#footer .footer-up .form h2 {
+  padding: 10px 0px;
+  color: white;
+}
+#footer .footer-up .form input {
+  border: 1px solid lightgreen;
+  background: transparent;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: rgb(150, 150, 150);
+  margin: 10px 0px;
+}
+#footer .footer-up .form textarea {
+  border: 1px solid lightgreen;
+  background: transparent;
+  border-radius: 20px;
+  padding: 10px 30px;
+  color: rgb(150, 150, 150);
+  margin: 10px 0px;
+}
+#footer .footer-up .form button {
+  padding: 10px 10px !important;
+  border: 1px solid lightgreen;
+  margin: 10px 0px;
+  background-color: lightgreen;
+  color: white;
+  transition: all 0.5s;
+}
+#footer .footer-up .form button:hover {
+  color: lightgreen;
+  background: transparent;
+}
+#footer .footer-down {
+  color: white;
+  padding: 30px 0px;
+}
+
+.home {
+  color: white;
+}
+.home .home-txt {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.home .home-txt h3 {
+  color: rgb(150, 150, 150);
+}
+.home .home-txt .h1 {
+  color: lightgreen;
+  font-size: bold;
+}
+.home .home-txt p {
+  color: rgb(150, 150, 150);
+}
+.home .home-txt .btn-1 {
+  background-color: lightgreen;
+  color: white;
+  padding: 10px 20px;
+}
+.home .home-txt .btn-1:hover {
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  background-color: transparent;
+  color: white;
+  border-color: lightgreen;
+}
+.home .home-txt .btn-1, .home .home-txt a {
+  color: white;
+}
+.home .home-txt .btn-1, .home .home-txt a:hover {
+  color: white;
+}
+.home .home-txt .btn-2 {
+  background-color: transparent;
+  border-color: lightgreen;
+  color: white;
+  padding: 10px 20px;
+}
+.home .home-txt .btn-2:hover {
+  transition: all 0.6s;
+  -webkit-transition: all 0.6s;
+  background-color: lightgreen;
+  color: rgb(49, 49, 49);
+}
+.home .home-txt .btn-2 a {
+  color: white;
+}
+.home .home-txt .btn-2 a:hover {
+  color: white;
+}
+@media (max-width: 325px) {
+  .home .home-txt .btn-2 {
+    padding: 5px 8px;
+  }
+  .home .home-txt .btn-1 {
+    padding: 5px 8px;
+  }
+}
+.home .home-img {
+  width: 370px;
+  height: 480px;
+  margin: 0px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .home-txt-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  border-radius: 30px;
+  margin: 20px 0px;
+  height: 90%;
+  width: 100%;
+}
+.home .home-txt-2 ul li {
+  margin: 20px 0px;
+}
+.home .home-txt-2 ul li h2 {
+  color: lightgreen;
+}
+
+.cources {
+  background: black;
+}
+
+.contact-us {
+  color: rgb(150, 150, 150);
+  margin: 80px 0px;
+}
+.contact-us .row .contact-txt h1 {
+  color: white;
+}
+.contact-us .row .contact-txt ul {
+  padding: 0px 20px;
+}
+.contact-us .row .contact-txt ul li {
+  color: white;
+  list-style: disc;
+}
+@media (max-width: 400px) {
+  .contact-us .row .contact-form .d-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-us .row .contact-form .d-flex textarea {
+    max-width: 100%;
+    padding: 10px 10px;
+  }
+}
+.contact-us .row .contact-form .d-flex input {
+  color: rgb(150, 150, 150);
+  width: 100%;
+  padding: 10px 40px;
+  background-color: transparent;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 30px;
+  margin: 10px 0px 10px 10px;
+}
+.contact-us .row .contact-form .d-flex input:hover {
+  border: 1px solid lightgreen;
+}
+.contact-us .row .contact-form textarea {
+  color: rgb(150, 150, 150);
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 1px solid rgb(150, 150, 150);
+  border-radius: 20px;
+}
+.contact-us .row .contact-form textarea:hover {
+  border: 1px solid lightgreen;
+}
+.contact-us .row .contact-form button {
+  color: black;
+  background-color: lightgreen;
+  border-radius: 30px;
+  padding: 10px 30px;
+  transition: all 0.5s;
+}
+.contact-us .row .contact-form button:hover {
+  background: transparent;
+  border: 1px solid lightgreen;
+  color: lightgreen;
+}
+
+a {
+  color: white;
+}
+
+.error .container {
+  height: 60vh;
+}
+
+.web .container-xl img {
+  height: 200px;
+  width: 400px;
+}/*# sourceMappingURL=main.css.map */

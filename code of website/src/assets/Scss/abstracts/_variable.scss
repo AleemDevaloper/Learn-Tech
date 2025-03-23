@@ -1,0 +1,60 @@
+$main-color: lightgreen;
+$sub-main-color: white;
+$sub2-main-color: rgb(150, 150, 150);
+$sub3-main-color: black;
+$sub4-color: rgb(49, 49, 49);
+$f-primary: 'Poppins' ,'Roboto', Arial, 'NunitoSans' , Helvetica, sans-serif;
+
+
+.main-color{
+    color: $main-color;
+}
+.main-text{
+    color: transparent !important;
+    background: linear-gradient(180deg , $main-color, $sub-main-color);
+    background-clip: text;
+}
+.sub-main-color{
+    color: $sub-main-color;
+}
+.sub2-main-color{
+    color: $sub2-main-color;
+}
+.h1-main{
+    color: $main-color;
+}
+.h1-sub{
+    color: $sub-main-color;
+}
+.h1-sub2{
+    color: $sub2-main-color;
+}
+.bg-black{
+    background: $sub3-main-color;
+}
+.bg-grey{
+    background: $sub4-color;
+}
+.btn-2{
+    background-color: transparent;
+    border-color: $main-color;
+    color: $sub-main-color;
+    padding: 10px 20px;
+    border: 1px solid $main-color;
+    border-radius: 10px;
+}
+.btn-2:hover{
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    background-color: $main-color;
+    color: $sub4-color;
+}
+@media (max-width: 325px ) {
+    .btn-2{
+      
+        padding: 5px 8px;
+    }  
+}
+.li-1 {
+    font-size: 26px;
+}

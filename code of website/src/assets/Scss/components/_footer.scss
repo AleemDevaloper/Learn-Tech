@@ -1,0 +1,115 @@
+
+
+#footer{
+    .footer-up{
+background-color: $sub3-main-color;
+margin: 50px 0px 0px 0px ;
+padding: 50px 0px;
+color: $sub2-main-color;
+.row{
+  @media (max-width: 992px) {
+    &{
+      flex-direction: column;
+      
+    }
+  }
+}
+         .loc{
+              h3{
+                 color: $sub-main-color;
+               }
+               ul{
+                
+                li{
+                  margin: 20px 0px;
+                  color: $sub-main-color;
+                  transition: all 0.5s;
+                  i{
+                    margin: 2px 20px;
+                    color: $main-color;
+                    font-size: 25px;
+                  }
+                }
+                li:hover{
+                    color: $main-color;
+                }
+               }
+           }
+
+          .fol{
+            h3{
+              color: $sub-main-color;
+            }
+            ul{
+              display: flex;
+              flex-wrap: wrap;
+              @media (max-width: 992px) {
+              justify-content: center;
+              }
+              li{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid $sub-main-color;
+                border-radius: 100%;
+                padding: 10px 15px;
+                margin: 5px 5px;
+                transition: all 0.5s;
+                i{
+                  font-size: 25px;
+                  color: $main-color;
+                }
+              }
+              li:hover{
+                cursor: none;
+                background-color: $main-color;
+                i{
+                  color: $sub-main-color;
+                }
+              }
+              
+            }
+            
+
+          }
+        .form{
+           h2{
+            padding: 10px 0px;
+            color: $sub-main-color;
+           }
+           input{
+             border: 1px solid $main-color;
+             background: transparent;
+             border-radius: 30px;
+             padding: 10px 30px;
+             color: $sub2-main-color;
+             margin: 10px 0px;
+           }
+           textarea{
+            border: 1px solid $main-color;
+            background: transparent;
+            border-radius: 20px;
+            padding: 10px 30px;
+            color: $sub2-main-color;
+            margin: 10px 0px;
+           }
+           button{
+            
+             padding: 10px 10px !important;
+             border: 1px solid $main-color;
+             margin: 10px 0px;
+             background-color: $main-color;
+            color: $sub-main-color;
+            transition: all .5s;
+           }
+           button:hover{
+            color: $main-color;
+            background: transparent;
+           }
+        }
+    }
+    .footer-down{
+        color: $sub-main-color;
+        padding: 30px 0px;
+    }
+}
